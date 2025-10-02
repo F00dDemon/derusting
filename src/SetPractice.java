@@ -1,3 +1,7 @@
+import java.util.*;
+
+import javax.rmi.ssl.SslRMIClientSocketFactory;
+
 public class SetPractice {
   public static void main(String[] args) {
     // Create a HashSet of Strings and assign it to a variable of type Set
@@ -25,5 +29,25 @@ public class SetPractice {
      * 
      * Also remember that sets do NOT have duplicates.
      */
+
+    Set<String> setstring = new HashSet<>();
+
+    for(int i = 0; i < 3; i++){
+      String neww = "a";
+      for(int f = 0; f < i; f++){
+        neww += "a";
+      }
+      setstring.add(neww);
+    }
+
+    System.out.println(setstring.contains("aa"));
+
+    setstring.remove("aa");
+
+    System.out.println(setstring.size());
+
+    for (String string : setstring) {
+      System.out.println(string);
+    }
   }
 }
