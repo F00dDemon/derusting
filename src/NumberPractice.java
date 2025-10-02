@@ -21,7 +21,7 @@ public class NumberPractice {
      * 7 / 3 = 2 when performing int division
      */
 
-    float num1 = -7;
+    //float num1 = -7;
     int num2 = 6;
 
     System.out.println(num2 % 3);
