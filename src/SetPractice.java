@@ -1,7 +1,5 @@
 import java.util.*;
 
-import javax.rmi.ssl.SslRMIClientSocketFactory;
-
 public class SetPractice {
   public static void main(String[] args) {
     // Create a HashSet of Strings and assign it to a variable of type Set
